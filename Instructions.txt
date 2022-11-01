@@ -1,0 +1,7 @@
+Hello!
+
+The file titled "Firearm_Detection_Demo"  is to demonstrate the firearm detection. 
+The "Firearm_Detection_Fast_Gmail" and "Firearm_Detection_Normal_Gmail" programs show how the detection leads to an email alert. 
+
+Best,
+Emily
