@@ -24,7 +24,7 @@ upload_url = "".join([
     "&stroke=5"
 ])
 
-# Get webcam interface via opencv-python
+# Define gmail address and content to send alert
 gmail = Gmail()
 params = {
         "to": "aimodeltesting2023@gmail.com",
@@ -33,6 +33,8 @@ params = {
         "msg_plain": "Target Detected! Immediate action required.",
         "attachments": ["detect.jpg"]
         }
+        
+# Get webcam interface via opencv-python
 video = cv2.VideoCapture(0)
 stack = 0
 
@@ -61,10 +63,9 @@ def infer():
         resp = json.loads(resp.read())
     except:
         print("could not parse respnose")
-    #print(resp)
-    
+        
+# Set the detection threshold as '0.425' and highlight the detected object
     preds=resp["predictions"]
-    
     for pred in preds:
         if pred["confidence"]>0.425:
             print("Firearm deteced!confidence:", pred['confidence'])
