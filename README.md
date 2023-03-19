@@ -14,6 +14,7 @@ I am not sharing my personal token passcode file ("client_secret.json") here for
 
 Here are a few things to note about each of the files:
 
+
 "Firearm_Detection_Demo_Normal":
 Demonstrates firearm detection. A window will pop up on your screen that visually displays and highlights the 
 identified firearm. Detection speed is at <5 fps. To exit the running program, hit the letter "q". 
@@ -36,9 +37,13 @@ Detection speed is at >30 fps. To exit the running program, hit the letter "q".
 Depending on your program environment, sometimes the program may crash on the first run. In the event that it 
 crashes, just run it again and it will work fine. 
 
+
 Linked here is a YouTube video demonstration of my project: https://youtu.be/RS6Qw_MAvA0 
+
 
 Please email me at 2023zhaoe83@gmail.com with any questions!
 
+
 Best, 
+
 Emily
