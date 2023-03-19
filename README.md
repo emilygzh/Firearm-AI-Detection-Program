@@ -27,12 +27,12 @@ crashes, just run it again and it will work fine.
 
 "Firearm_Detection_Normal_Gmail":
 Detects firearms and sends email alerts upon detection. The demonstration window with the visual display and 
-highlights will not pop up, but a screenshot of the identification and the highlight will be attached to the email. 
+highlights will pop up, and a screenshot of the identification and the highlight will be attached to the email. 
 Detection speed is at <5 fps. To exit the running program, hit the letter "q". 
 
 "Firearm_Detection_Fast_Gmail":
 Detects firearms and sends email alerts upon detection. The demonstration window with the visual display and 
-highlights will not pop up, but a screenshot of the identification and the highlight will be attached to the email. 
+highlights will pop up, and a screenshot of the identification and the highlight will be attached to the email. 
 Detection speed is at >30 fps. To exit the running program, hit the letter "q". 
 Depending on your program environment, sometimes the program may crash on the first run. In the event that it 
 crashes, just run it again and it will work fine. 
