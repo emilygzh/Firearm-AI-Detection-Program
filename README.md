@@ -5,6 +5,7 @@ Hello!
 
 You're free to test out this program in Visual Studio Code! 
 
+Check out the executable files to test this program!
 
 "Firearm_Detection_Demo_Normal" and "Firearm_Detection_Demo_Fast" can be directly run. 
 "Firearm_Detection_Normal_Gmail" and "Firearm_Detection_Fast_Gmail" need a Gmail developer token passcode to run. 
